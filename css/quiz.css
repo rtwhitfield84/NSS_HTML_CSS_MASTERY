@@ -1,0 +1,185 @@
+/*GENERAL*/
+
+body {
+	background: url("../images/rsz_galaxy-wallpaper.jpg") no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	max-height: 100%;
+	text-shadow: 2px 1px #999;
+	font-family: 'BioRhyme', serif;	
+}
+
+#wrapper {
+	max-width: 940px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 2px #DA9FB8;
+}
+
+a:hover,
+a:focus {
+	text-shadow: 2px 1px #fff;
+	color: #DA9FB8;
+}
+
+img {
+	max-width: 100%
+}
+
+/*BIO*/
+
+.bio p {
+	text-indent: 1em;
+}
+
+/*HEADING*/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1 {
+	font-family: 'Bungee Shade', cursive;
+	margin: 15px 0;
+	font-size: 1.75em;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 0.75em;
+	font-weight: normal;
+}
+
+h1,
+h2 {
+	text-align: center;
+}
+
+.profilePic {
+	display: block;
+	max-width: 400px;
+	margin: 0 auto;
+	border-radius: 80%;
+}
+
+/*SITES SECTION*/
+
+.sitesImg {
+	display: block;
+	width: 400px;
+	height: 400px;
+}
+
+.sites a {
+	padding-bottom: 1em;
+	font-size: 2em;
+}
+
+/*PLACEHOLDER SECTION*/
+
+.placeholder {
+	text-align: center;
+}
+
+h3 {
+	font-size: 3em;
+	font-weight: bold;
+	text-shadow: 5px 5px #999;
+}
+
+.placeholder h4 {
+	font-size: 2em;
+}
+
+/*FOOTER*/
+
+
+footer {
+	font-size: 0.85em;
+	text-align: center;
+	/*clear: both;*/
+	padding-top: 25px;
+	color: #ccc;
+}
+
+footer div {
+	display: flex;
+	justify-content: center;
+}
+
+.icon {
+	width: 50px;
+	height: 50px;
+	margin-bottom: -25px;
+}
+
+#bigIconGit,
+#bigIconTwit {
+	width: 60px;
+	height: 60px;
+	margin: 0 5px;
+}
+
+footer a {
+	display: block;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media screen and (max-width: 400px) {
+
+	.profilePic {
+		max-width: 300px;
+	}
+
+}
+
+@media screen and (min-width: 660px) {
+
+	.sites {
+		text-align: center;
+	}
+
+	img.sitesImg {
+		margin: 0 auto;
+	}
+
+	article h3 {
+		text-align: center;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
